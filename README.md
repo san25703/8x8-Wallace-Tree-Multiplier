@@ -3,6 +3,9 @@
 ## Overview
 This project implements an 8x8 Wallace Tree Multiplier using structural HDL modeling. The Wallace Tree architecture reduces the delay in multiplication by optimizing partial product reduction stages.
 
+![Architecture Using Regular Modules with Optimum Hardware Utilisation](Architecture%20using%20regular%20modules%20with%20optimum%20hardware.png)
+
+
 ## Features
 - Modular design using 4-2 compressors, full adders, and half adders.
 - Structural HDL implementation for efficient hardware utilization.
@@ -10,7 +13,7 @@ This project implements an 8x8 Wallace Tree Multiplier using structural HDL mode
 
 ## Project Contents
 - **HDL Code**:
-  - `Wallace_8x8.v`: Top-level module.
+  - Verilog Code: Top-level module.
   - Supporting modules (`CMP`, `FA`, `HA`).
 - **Simulation Files**: Testbench and waveform outputs for functional verification.
 - **Reports**: Power, timing, and utilization analysis.
